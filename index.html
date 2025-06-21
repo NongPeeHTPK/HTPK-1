@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <script src="https://kit.fontawesome.com/78fa2e6600.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<!--
+  TAILWIND CSS
+  npm install tailwindcss @tailwindcss/cli
+  src/input.css
+  @import "tailwindcss";    
+  npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+  -->
+<!--
+  GITHUB
+  git init
+  git add . 
+  git commit -m "first commit"
+  git remote add origin URL
+  git push -u origin master 
+  -->
+
+<body class="bg-[#F0F0F0]">
+    <nav class="sticky top-0 z-50">
+        <div class="min-h-[7rem] flex justify-between items-center px-[2rem] sm:px-[4rem]">
+            <div class="text-[#004FD9] text-[1.5rem] sm:text-[2rem]">
+                <h1>STUDIO CORDS</h1>
+            </div>
+            <div class="hidden sm:flex space-x-5">
+                <div>
+                    <a href="">HOME</a>
+                </div>
+                <div>
+                    <a href="">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="flex text-[#004FD9] sm:hidden">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="bg-[#F9F9F9] rounded-[1.5rem] mx-[1.5rem] sm:mx-[2rem]">
+            <div class="px-[2rem] sm:px-[5rem] xl:px-[8rem] py-[10rem] text-center">
+                <div class="text-[#004FD9] text-[2rem] sm:text-[4rem] xl:text-[6rem]">
+                    <h1>WEBSITE REBOOT IN PROGRESS</h1>
+                </div>
+                <div class="text-[#004FD9] xl:text-[1.5rem] animate-pulse">
+                    <p>STAY TUNED - WE’LL BE LAUNCHING SOON</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="mx-[3.5rem] sm:mx-[4.5rem] mb-[2rem] sm:mb-[4rem] sm:w-2/3 xl:w-1/2">
+                <div class="text-[#004FD9] mt-[2rem] sm:mt-[4rem] mb-[0.5rem] sm:text-[1.5rem]">
+                    <h1>VISUALLY STRIKING SOLUTIONS</h1>
+                </div>
+                <div class="text-[0.8rem] sm:text-[1rem] text-[#6E6E6E]">
+                    <p>
+                        This is a space to share more about the business. take advantage
+                        of this long text to tell people who's behind it, what it does,
+                        how it began, and other details. it's an excellent place to share
+                        the story behind the business and describe what this site has to
+                        offer its visitors.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <article>
+            <div class="grid xl:flex xl:justify-between">
+                <div
+                    class="bg-[#F9F9F9] w-auto xl:w-1/2 rounded-[1.5rem] xl:rounded-r-[0rem] ml-[1.5rem] mr-[1.5rem] xl:mr-[0.1rem]">
+                    <div class="px-[2rem] py-[2.5rem]">
+                        <div class="text-[#004FD9] sm:text-[1.5rem]">
+                            <h1>JOIN THE WAITING LIST AND BE PART OF OUR INNER CIRCLE.</h1>
+                        </div>
+                        <div class="mt-[1.3rem] mb-[1.3rem]">
+                            <div class="text-[#6E6E6E]">
+                                <label for="email">EMAIL ADDRESS*</label>
+                            </div>
+                            <div class="w-full border-1 border-[#004FD9] focus:outline-none">
+                                <input type="email" name="email" id="email" />
+                            </div>
+                        </div>
+                        <div class="flex space-x-2 mt-[1.3rem] mb-[1.3rem] text-[0.8rem] sm:text-[1rem]">
+                            <div class="border-[#004FD9]">
+                                <input type="checkbox" name="checkbox1" id="checkbox1" />
+                            </div>
+                            <div class="text-[#6E6E6E]">
+                                <label for="checkbox1">YES, SUBSCRIBE ME TO YOUR NEWSLETTER.*</label>
+                            </div>
+                        </div>
+                        <div
+                            class="h-[2.5rem] w-full sm:w-[17rem] bg-black text-white flex items-center justify-center">
+                            <button type="button">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[#F9F9F9] w-auto xl:w-1/2 rounded-[1.5rem] xl:rounded-l-[0rem] ml-[1.5rem] mr-[1.5rem] xl:ml-[0.1rem] mt-[1.3rem] xl:mt-0">
+                    <div class="px-[2rem] py-[2rem] text-[#004FD9] text-[1.5rem] xl:flex xl:flex-col xl:items-end">
+                        <div class="mb-[0.2rem]">
+                            <a href="">FACEBOOK</a>
+                        </div>
+                        <div class="mb-[0.2rem]">
+                            <a href="">INSTAGRAM</a>
+                        </div>
+                        <div class="mb-[0.2rem]">
+                            <a href="">LIKEDIN</a>
+                        </div>
+                        <div>
+                            <a href="">YOUTUBE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div class="my-[2rem] mx-[1.5rem] text-[#004FD9]">
+                <div class="flex flex-wrap space-x-5 mb-[1rem]">
+                    <div>
+                        <a href="">HOME</a>
+                    </div>
+                    <div>
+                        <a href="">SUBSCRIBE</a>
+                    </div>
+                    <div>
+                        <a href="">PRIVACY POLICY</a>
+                    </div>
+                    <div>
+                        <a href="">ACCESSIBILITY STATEMENT</a>
+                    </div>
+                </div>
+                <div class="flex space-x-1">
+                    <div>
+                        <p>© 2035 by Studio Cords. Built on</p>
+                    </div>
+                    <div class="underline">
+                        <a href="">Wix Studio</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
